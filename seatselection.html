@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Seats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select Location and Seats</h2>
+        <select id="location">
+            <option value="">select-location</option>
+            <option value="Pattambi">Pattambi</option>
+            <option value="Cherpulassery">Cherpulassery</option>
+            <option value="Palakkad">Palakkad</option>
+            <option value="Shoranur">Shoranur</option>
+        </select>
+        <div id="theater-list"></div>
+        <div class="seats-container"></div>
+        <button onclick="proceedToPayment()">Proceed to Payment</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
